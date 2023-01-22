@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    padding-bottom: 450px;
+}
+
+.paragraph-styling {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        text-align: left;
+        margin-left: 85px;
+    }
+  }
+
+
