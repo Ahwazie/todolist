@@ -5,6 +5,12 @@ body {
     font-size: xx-large;
 }
 
+p {
+    font-size: xx-small;
+    position: static;
+    
+}
+
 .paragraph-styling {
     cursor: pointer;
     font-size: 20px;
