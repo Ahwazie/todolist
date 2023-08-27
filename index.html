@@ -1,32 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up | Log In</title>
     <link rel="stylesheet" href="style.css">
-    <title>To-Do List</title>
-</head>
-<body>
-    <div class="lawa">
-    <h1>To Do List</h1>
-    <p>
-        Tutorial:
-        <br>
-        Click Once to Cancel Item
-        <br>
-        Double Click to Remove Item
-    </p>
-        <div class="container">
-        <input id="inputField" type="text"><button id="addToDo">Add</button>
-        <div class="to-dos" id="toDoContainer">
-
-        </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+       <div class="title-text">
+          <div class="title login">
+             <img src="unissa.png" alt="Accounts Logo" class="logo">
+          </div>
+          <div class="title signup">
+             Account
+          </div>
+       </div>
+       <div class="form-container">
+          <div class="slide-controls">
+             <input type="radio" name="slide" id="login" checked>
+             <input type="radio" name="slide" id="signup">
+             <label for="login" class="slide login">Login</label>
+             <label for="signup" class="slide signup">SignUp</label>
+             <div class="slider-tab"></div>
+          </div>
+          <div class="form-inner">
+             <form action="#" class="login">
+                <div class="field">
+                   <input type="text" placeholder="Email Address" required>
+                </div>
+                <div class="field">
+                   <input type="password" placeholder="Password" required>
+                </div>
+                <div class="pass-link">
+                   <a href="#">Reset password?</a>
+                </div>
+                <div class="field btn">
+                   <div class="btn-layer"></div>
+                   <input type="submit" value="Login">
+                </div>
+                <div class="signup-link">
+                   Don't Have Account? <a href="">Create A New</a>
+                </div>
+             </form>
+             <form action="#" class="signup">
+                <div class="field">
+                   <input type="text" placeholder="Email Address" required>
+                </div>
+                <div class="field">
+                   <input type="password" placeholder="Password" required>
+                </div>
+                <div class="field">
+                   <input type="password" placeholder="Confirm Password" required>
+                </div>
+                <div class="field btn">
+                   <div class="btn-layer"></div>
+                   <input type="submit" value="SignUp">
+                </div>
+             </form>
+          </div>
+       </div>
     </div>
-    
-    
-    
-    
-    <script src="my.js"></script>
-</body>
+    <script src="style.js"></script>
+  </body>
 </html>
